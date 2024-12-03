@@ -1,0 +1,31 @@
+.home-social-icons {
+    color: aliceblue;
+}
+
+
+.home-about-social-links {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    margin-bottom: 4%;
+    margin-left: 43%;
+}
+
+
+.home-content {
+    margin-bottom: 5%;
+}
+
+.home-about-description {
+    margin-bottom: 10%;
+}
+
+@media (width<720px) {
+    .cv {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .home-about-social-links{
+        margin-left: 25%;
+    }
+}

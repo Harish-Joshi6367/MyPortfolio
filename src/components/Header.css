@@ -1,0 +1,9 @@
+.navItem {
+    color: white;
+}
+
+.navItem:hover {
+    color: rgb(226, 186, 43);
+    transform: scale(1.05);
+    transition-duration: 0.3s;
+}

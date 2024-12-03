@@ -1,0 +1,43 @@
+#home {
+    margin-top: 5%;
+    width: 90%;
+}
+
+.home-header {
+    margin-top: 10%;
+    text-align: left;
+    margin-left: 10%;
+}
+
+.type {
+    text-align: left;
+    color:rgb(198, 67, 222);
+    padding-top: 30px;
+    font-size:40px;
+    font-weight: 600;
+}
+
+.main-name {
+    color: rgb(198, 67, 222);
+}
+
+.about-activity2 {
+    list-style: none;
+    font-size: 20px;
+}
+
+.purple {
+    color: rgb(105, 231, 152);
+}
+
+.card {
+    background-color: rgb(27, 25, 20);
+    color: white;
+}
+
+@media (width<720px) {
+    .row {
+        display: flex;
+        flex-direction: column;
+    }
+}
