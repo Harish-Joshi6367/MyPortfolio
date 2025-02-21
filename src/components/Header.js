@@ -16,28 +16,28 @@ function Header() {
         <div className="col-6 ">
           <ul className=" d-flex head" style={{ listStyleType: "none" }}>
             <a
-              href=""
+              href="#home"
               style={{ textDecoration: "none"}}
               className="flex-fill m-2 text-muted"
             >
               <li className="navItem"><i class="fa-solid fa-house-chimney"></i>&nbsp;Home</li>
             </a>
             <a
-              href=""
+              href="#about"
               style={{ textDecoration: "none"}}
               className="flex-fill m-2 text-muted"
             >
               <li className="navItem"><i class="fa-regular fa-user"></i>&nbsp;About</li>
             </a>
             <a
-              href=""
+              href="#projects"
               style={{ textDecoration: "none"}}
               className="flex-fill m-2 text-muted"
             >
               <li className="navItem"><i class="fa-solid fa-diagram-project"></i>&nbsp;Projects</li>
             </a>
             <a
-              href=""
+              href="#resume"
               style={{ textDecoration: "none"}}
               className="flex-fill m-2 text-muted"
             >

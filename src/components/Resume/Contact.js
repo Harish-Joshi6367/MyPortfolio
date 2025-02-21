@@ -10,7 +10,7 @@ import "./Resume.css";
 
 function Contact() {
     return (
-        <Container>
+        <Container id="contact">
             <Row>
                 <Col md={12} className="home-about-social">
                     <h1>FIND ME ON</h1>

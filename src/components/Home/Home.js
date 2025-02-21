@@ -5,7 +5,7 @@ import "./Home.css";
 
 function Home() {
   return (
-    <section>
+    <section id="home">
       <div fluid className="home-section" id="home">
         <div className="home-content">
           <div className="row">

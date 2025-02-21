@@ -12,7 +12,7 @@ import zerodha from "../../Assets/Projects/zerodha.png";
 
 function Projects() {
   return (
-    <Container fluid className="project-section">
+    <Container id="projects" fluid className="project-section">
       <Particle />
       <Container>
         <h1 className="project-heading">
@@ -35,17 +35,17 @@ function Projects() {
             <ProjectCard
               imgPath={zerodha}
               title="SmartTrade Navigator"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              link="https://github.com/soumyajit4419/Plant_AI"
+              description="A modern, user-friendly stock trading and investment platform inspired by industry leaders like Zerodha. Built to provide seamless investing, real-time market insights, and low-cost trading for users. This platform empowers users to trade stocks, invest in mutual funds, and manage their portfolios with ease."
+              link="https://github.com/Harish-Joshi6367/Zerodha-clone"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={studysync}
-              title="StudySunc"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              link="https://github.com/soumyajit4419/Editor.io"
+              title="StudySync"
+              description="Creating seamless and responsive experiences for the digital world. Building modern web applications with clean design, efficient code, and innovative solutions. For purpose of learning to CSS and HTML."
+              link="https://github.com/Harish-Joshi6367/StudySync"
             />
           </Col>
 
@@ -53,7 +53,7 @@ function Projects() {
             <ProjectCard
               imgPath={currency}
               title="Currency Convertor"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
+              description="The Currency Converter is a web-based application that allows users to convert currencies in real-time using up-to-date exchange rates. It is designed to be fast, accurate, and user-friendly, making it a useful tool for travelers, traders, and financial analysts."
               link="https://github.com/Harish-Joshi6367/Currency-Convertor"
             />
           </Col>
@@ -63,7 +63,7 @@ function Projects() {
               imgPath={tictactoe}
               isBlog={false}
               title="Tic Toc Toe"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
+              description="Tic-Tac-Toe is a classic two-player game where players take turns marking X or O on a 4x4 grid. The goal is to align three marks horizontally, vertically, or diagonally before the opponent."
               link="https://github.com/Harish-Joshi6367/Tic-Tac-Toe"
             />
           </Col>
@@ -73,8 +73,8 @@ function Projects() {
               imgPath={rockpaper}
               isBlog={false}
               title="Rock Paper Scissors"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%."
-              link="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
+              description="Rock-Paper-Scissors is a fun and interactive game built with JavaScript. Play against the computer with real-time score tracking and smooth animations. The game features an responsive design, and engaging visuals, making it an exciting way to test your luck and strategy!"
+              link="https://github.com/Harish-Sharma6367/Rock-Paper-Scissors"
             />
           </Col>
         </Row>

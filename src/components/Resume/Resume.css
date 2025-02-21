@@ -20,6 +20,15 @@
     margin-bottom: 10%;
 }
 
+.cv {
+    background-color: #69a9b9;
+    width: 200px;
+    height: 50px;
+    border-radius: 14px;
+    text-align: center;
+    padding-top: 10px;
+}
+
 @media (width<720px) {
     .cv {
         margin-left: auto;

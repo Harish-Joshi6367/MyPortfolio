@@ -6,7 +6,7 @@ import Intro from "./Intro";
 
 function About() {
   return (
-    <div className="about-section" style={{width: "80%", marginLeft:"10%"}}>
+    <div id="about" className="about-section" style={{width: "80%", marginLeft:"10%"}}>
       <Particle />
       <div>
         <div><Intro /></div>
